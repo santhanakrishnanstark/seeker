@@ -1,0 +1,32 @@
+.contact-form{
+    box-shadow: 0px 0px 5px gainsboro;
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: slide 1400ms ease-in-out forwards;
+}
+.contact-form label{
+    font-size: 1.1rem;
+    color: #a7a6a6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitbtn{
+    background-color: #ff4484 !important;
+    color: white !important;
+    transition: box-shadow 200ms ease-out;
+}
+.submitbtn:hover{
+    box-shadow: 0px 0px 6px rgb(179, 171, 171);
+}
+.form-control:focus {
+    border-color: #a7a6a6 !important;   
+    box-shadow: none !important;
+}
+
+@keyframes slide{
+    from{ transform: translateX(150%);
+        /**transform:rotateX(-180deg);**/
+    }
+    to{ transform: translateX(0px);
+        /**transform: rotateX(0deg);**/
+    }
+}

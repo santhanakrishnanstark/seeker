@@ -1,0 +1,23 @@
+.Navbar a{
+    text-decoration: none!important;
+    margin: 2% 4%;
+    font-size: 1.1rem;
+    color: black!important;
+}
+.Navbar li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    list-style-type: none;
+    font-variant: small-caps;
+}
+.Navbar li a:hover{
+    font-weight: bold; 
+    cursor: pointer;
+    color: black;
+}
+.Navbar li a.active{
+    font-weight: bold; 
+    cursor: pointer;
+    color: #ff4484!important;
+}
