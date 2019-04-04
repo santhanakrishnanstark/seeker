@@ -5,3 +5,7 @@
     text-align: justify;
     padding: 5%;
 }
+
+h5{
+    font-variant-caps: all-petite-caps;
+}

@@ -4,8 +4,8 @@ import './ProfileDescription.css';
 const profiledescription = () => {
     return ( 
         <div className="Description">
-            <h5>If you can't do great things,</h5>
-            <h5>do small thing in a great way !</h5>
+            <h5>If you can't do great things</h5>
+            <h5>do small thing in a great way!</h5>
             <br/>
             <p> Hi! Nice to Meet you.
                 I Design & Code beautiful simple things and I love what I do.

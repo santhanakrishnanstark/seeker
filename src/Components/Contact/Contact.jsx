@@ -9,13 +9,13 @@ const contact = () => {
                     <div className="contact-form">
                          <h2 className="text-center">Thanks for taking the time to reach out. How can I help you today?</h2>
                         <div className="row mt-3">
-                            <div className="col">
+                            <div className="col-md-6">
                                 <label>Name</label>
-                                <input type="text" class="form-control" />
+                                <input type="text" className="form-control" />
                             </div>
-                            <div className="col">
+                            <div className="col-md-6">
                                 <label>E-Mail</label>
-                                <input type="text" class="form-control" />
+                                <input type="text" className="form-control" />
                             </div>
                         </div>
                         <div className="form-group mt-2">
