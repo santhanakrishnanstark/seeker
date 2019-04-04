@@ -4,7 +4,7 @@ import  './Projects.css';
 
 const projects = () => {
     return ( 
-        <div className="container Project mt-5">
+        <div className="container mt-5">
             <div className="row">
                 <div className="col-md-8 mx-auto">
                    <div className="row">

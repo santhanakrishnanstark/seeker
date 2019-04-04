@@ -1,6 +1,6 @@
 .content{
     box-shadow: 0px 0px 5px gainsboro;
-    animation: wave 1400ms cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+    animation: wave 1400ms ease-in-out forwards;
 }
 .content > div{
  padding:0px;
