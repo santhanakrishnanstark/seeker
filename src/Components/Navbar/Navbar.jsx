@@ -7,9 +7,7 @@ const navbar = () => {
             <ul className="Navbar">
                 <li><NavLink to="/" exact>about</NavLink></li>
                 <li><NavLink to={{
-                    pathname: '/my-projects',
-                    hash: '#submit',
-                    search: '?quick-submit=true'
+                    pathname: '/my-projects'
                 }}>my work</NavLink></li>
                 <li><NavLink to={{
                     pathname: '/contact'
